@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Симплекс метод</title>
+</head>
+<body>
+	<h1>Решение задач симплекс методом</h1>
+	<p id="par">Количество переменных: <input type="number" name="variables" id="variables" size="5" min="1" max="100" onchange="add()" oninput="add()" value="2">
+	</p>
+	<p id="par">Количество ограничений: <input type="number" name="constraints" id="constraints" size="5" min="1" max="100" onchange="add()" oninput="add()" value="2">
+	</p>
+	<h3>Целевая функция:</h3>
+	<div class="func_block" id="func_block">
+	</div>
+	<h3>Ограничения:</h3>
+	<div class="constraint_block" id="constraint_block">
+	</div>
+	<input type="button" name="answer" value="Решить" onclick="solve()">
+	<br>
+	<div id="result"></div>
+	<div id="simplex-container" class="simplex-container"></div>
+
+
+	<script src="main.js"></script>
+		<script>add();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+}
+input[type="text"]{
+	width: 40px;
+	text-align: right;
+	margin-bottom: 5px;
+}
+input[type="number"]{
+	width: 40px;
+	text-align: right;
+	margin-bottom: 5px;
+}
+h1, h3{
+	text-align: center;
+	margin: 10px;
+}
+
+.answer {
+	text-align:  left;
+}
+
+.func_block {
+	 overflow-x: auto;
+	 white-space: nowrap;
+}
+
+.constraint_block {
+	 overflow-x: auto;
+	 white-space: nowrap;
+	 margin-top: 10px;
+}
+p {
+	margin: 10px;
+}
+
+.bordered {
+  border-collapse: collapse;
+}
+
+.bordered th,
+.bordered td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.simplex-container {
+	text-align: left;
+}
+
+tr:last-of-type {
+    background-color: yellow;
+}
+
+th {
+    background-color: white;
+}
